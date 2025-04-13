@@ -1,0 +1,59 @@
+.about {
+    display: grid;
+    grid-template-areas: 
+    "photo desc";
+    grid-template-columns: 1fr 2fr;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #dd0d4b;
+    overflow: hidden;
+}
+
+.photo > img {
+    padding: 100px;
+    border-radius: 60%;
+}
+
+/* 
+.photo {
+    height: 850px;
+    width: 850px;
+
+    img {
+        padding: 100px;
+        border-radius: 60%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+} */
+
+.main {
+    display: grid;
+    /* grid-template-areas: 
+    "scholar lang tech"; */
+    /* "scholar tech"; */
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    background-color: #2e73e1;
+}
+
+/* footer {
+    display: grid;
+    background-color: #31d97d;
+    grid-template-columns: auto;
+} */
+
+footer .contato {
+    background-color: #9750c3;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 5%;
+
+    img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}
