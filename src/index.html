@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,48 +39,52 @@
     <!-- foto minha e sobre mim -->
     <section class="about">
         <div class="photo">
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGz1ctsbKX61A/profile-displayphoto-shrink_200_200/B4DZXc2XwiHIAc-/0/1743166996007?e=1750291200&v=beta&t=2UF5HAtMPnpUxAV3JA3tm3ihmdeh9hWW-IsPZ33XZhk" alt="profile-photo">
+            <!-- <img src="https://media.licdn.com/dms/image/v2/D4D03AQGz1ctsbKX61A/profile-displayphoto-shrink_200_200/B4DZXc2XwiHIAc-/0/1743166996007?e=1750291200&v=beta&t=2UF5HAtMPnpUxAV3JA3tm3ihmdeh9hWW-IsPZ33XZhk" alt="profile-photo"> -->
         </div>
 
         <article class="desc">
-            <h2>Gustavo Ribeiro da Rosa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, mauris quis mattis gravida, justo nisl condimentum arcu, sit amet vulputate ex risus eget felis. Sed sit amet lobortis ante. Sed sed lacus nec justo euismod feugiat. Maecenas elementum consequat dolor. In fringilla, magna venenatis malesuada dignissim, metus justo interdum risus, sed placerat ex mauris et elit. </p>
+            <h1>Gustavo Ribeiro da Rosa</h1>
+            <p>Estudante de Desenvolvimento de Software</p>
         </article>
     </section>
 
     <!-- formação academica -->
 
     <main class="main">
-        <section class="scholar">
-            <article>
-                <img src="https://www.fatecsp.br/img/logofatec.png" alt="logo-fatec">
-                <p>ADS - periodo bla bla</p>
-    
-                <p>DSM - atual</p>
+        <section class="card">
+            <!-- <img src="https://www.fatecsp.br/img/logofatec.png" alt="logo-fatec"> -->
+            <article class="card-body">
+                <h3 class="card-title">Sobre mim</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, mauris quis mattis gravida, justo nisl condimentum arcu, sit amet vulputate ex risus eget felis. Sed sit amet lobortis ante. Sed sed lacus nec justo euismod feugiat. Maecenas elementum consequat dolor. In fringilla, magna venenatis malesuada dignissim, metus justo interdum risus, sed placerat ex mauris et elit. </p>
+                
             </article>
         </section>
     
-        <aside class="lang">
-            <h3>Linguagens</h3>
-            <ul>
-                <li>Ruby</li>
-                <li>Python</li>
-                <li>Javascript</li>
-            </ul>
-        </aside>
-    
-        <aside class="tech">
-            <h3>Tecnologias</h3>
-            <ul>
-                <li>Ruby on Rails</li>
-                <li>Pandas</li>
-            </ul>
-        </aside>
+        <section class="card">
+            <article class="card-body">
+                <h3 class="card-title">Linguagens</h3>
+                <ul>
+                    <li class="li1">Ruby</li>
+                    <li class="li2">Javascript</li>
+                    <li class="li3">Python</li>
+                </ul>
+            </article>
+
+            <article class="card-body">
+                <h3 class="card-title">Tecnologias</h3>
+                <ul>
+                    <li>Ruby on Rails</li>
+                    <li>NodeJS</li>
+                    <li>Pandas</li>
+                    <li>Godot</li>
+                </ul>
+            </article>
+        </section>
     </main>
 
 
     <footer>
-        <div class="contato">
+        <div class="contato bg-dark">
             <a href="https://github.com/gustasvos"><img src="./static/images/github_logo.png" alt="github-link"></a>
             <a href="https://www.linkedin.com/in/gustavo-rosa-46a251180/"><img src="./static/images/linkedin_logo.png" alt="linkedin-link"></a>
         </div>

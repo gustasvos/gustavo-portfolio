@@ -1,3 +1,7 @@
+body {
+    background-color: slateblue;
+}
+
 .about {
     display: grid;
     grid-template-areas: 
@@ -6,7 +10,7 @@
 
     align-items: center;
     justify-content: center;
-    background-color: #dd0d4b;
+    /* background-color: #dd0d4b; */
     overflow: hidden;
 }
 
@@ -30,22 +34,42 @@
 
 .main {
     display: grid;
-    /* grid-template-areas: 
-    "scholar lang tech"; */
-    /* "scholar tech"; */
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40% 30% 30%;
     padding: 40px;
-    background-color: #2e73e1;
+    gap: 65px;
+    /* background-color: #2e73e1; */
 }
 
-/* footer {
+.main > .card {
     display: grid;
-    background-color: #31d97d;
-    grid-template-columns: auto;
-} */
+    grid-template-columns: auto auto; 
+    border-style: solid;
+    border-color: coral;
+
+    .li1 {
+        background: url('https://img.icons8.com/fluency/48/ruby-programming-language.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+
+    .li2 {
+        background: url('https://img.icons8.com/color/48/javascript--v1.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+
+    .li3 {
+        background: url('https://img.icons8.com/color/48/python--v1.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+}
+
 
 footer .contato {
-    background-color: #9750c3;
     display: flex;
     justify-content: center;
     gap: 15px;
