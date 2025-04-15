@@ -2,50 +2,59 @@ body {
     background-color: slateblue;
 }
 
-.about {
+/* INTRODUÇÃO */
+
+.intro {
     display: grid;
-    grid-template-areas: 
-    "photo desc";
-    grid-template-columns: 1fr 2fr;
-
+    grid-template-columns: 1fr 3fr;
     align-items: center;
-    justify-content: center;
-    /* background-color: #dd0d4b; */
-    overflow: hidden;
+    /* height: 100vh; */
+    border: solid greenyellow;
 }
 
-.photo > img {
-    padding: 100px;
-    border-radius: 60%;
+.photo img {
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    margin: 1vh 0 1vh 10vw; /* top right bottom left */
+    border: solid rebeccapurple;
 }
 
-/* 
-.photo {
-    height: 850px;
-    width: 850px;
+.desc {
+    border-style: solid;
+    border-color: coral;
+    width: 60%;
+    /* padding: 5%; */
+    /* padding-top: 11%; */
+    /* margin: auto; */
+    font-size: 1vw;
+    text-align: center;
+}
 
-    img {
-        padding: 100px;
-        border-radius: 60%;
-        max-width: 100%;
-        max-height: 100%;
-    }
-} */
+/* MAIN */
+
 
 .main {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 40% 60%;
     padding: 40px;
     gap: 65px;
-    /* background-color: #2e73e1; */
+    border: solid crimson;
+    background-color: #2e73e1;
 }
 
-.main > .card {
-    display: grid;
-    grid-template-columns: auto auto; 
-    border-style: solid;
-    border-color: coral;
+.main .about-me {
+    padding: 50px;
+    border: solid #cb07f2;
+}
 
+.main .tech {
+    display: grid;
+    width: 35vw;
+    grid-template-columns: auto auto; 
+    padding: 1vh 0 1vh 1vw; /* top right bottom left */
+    border: solid violet;
+    
     .li1 {
         background: url('https://img.icons8.com/fluency/48/ruby-programming-language.png') 0 50% no-repeat;
         padding-left: 30px;
@@ -66,7 +75,30 @@ body {
         background-size: 20px 20px;
         list-style: none;
     }
+    .fr1 {
+        background: url('https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-rails-a-server-side-web-application-framework-written-in-ruby-logo-color-tal-revivo.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+    
+    .fr2 {
+        background: url('https://img.icons8.com/fluency/48/node-js.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+    
+    .fr3 {
+        background: url('https://img.icons8.com/color/48/pandas.png') 0 50% no-repeat;
+        padding-left: 30px;
+        background-size: 20px 20px;
+        list-style: none;
+    }
+
 }
+
+
 
 
 footer .contato {
@@ -76,8 +108,8 @@ footer .contato {
     padding: 10px 5%;
 
     img {
-        width: 60px;
-        height: 60px;
+        width: 4vw;
+        height: 4vh;
         object-fit: contain;
     }
 }
