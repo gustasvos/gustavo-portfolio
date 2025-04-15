@@ -98,8 +98,18 @@ body {
 
 }
 
+.main .education {
+    padding: 50px;
+    border: solid rgb(246, 243, 61);
+}
 
-
+.main .work {
+    display: flex;
+    width: 55vw;
+    gap: 1vw;
+    padding: 3vh 0 1vh 1vw; /* top right bottom left */
+    border: solid purple;
+}
 
 footer .contato {
     display: flex;
