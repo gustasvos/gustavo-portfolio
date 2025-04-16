@@ -1,3 +1,21 @@
 body {
     background-color: slateblue;
 }
+
+/* Increase the font size of navbar links */
+.navbar-nav .nav-link {
+    font-size: 1.25rem; /* Adjust as needed */
+}
+
+/* Center the navbar items horizontally */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centers the nav items */
+    width: 100%;
+}
+
+/* Optional: Add some padding to the navbar items */
+.navbar-nav .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}

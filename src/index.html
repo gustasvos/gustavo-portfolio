@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Portfolio Gustavo</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/normalize.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0"> <!-- Enable ScrollSpy -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Sobre mim</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="projetos.html">Projetos</a>
-                  </li>
-                </ul>
-              </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="sobre-mim" href="#intro">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tecnologias" href="#main">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="formacao" href="#formacao">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="experiencia" href="#experiencia">Experiência</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
     <!-- foto minha e sobre mim -->
-    <section class="intro">
+    <section class="intro" id="intro">
         <div class="photo">
             <img class="rounded-circle" src="./static/images/20240919_115257.jpg" alt="profile-photo">
         </div>
         <article class="desc">
             <h1>Olá! Sou Gustavo e este é meu portfolio!</h1>
         </article>
-
     </section>
 
     <!-- formação academica -->
-
-    <main class="main">
-        <section class="about-me">
-            <!-- <img src="https://www.fatecsp.br/img/logofatec.png" alt="logo-fatec"> -->
+    <main class="main" id="main">
+        <section class="about-me" id="sobre-mim">
             <article>
                 <h1>Sobre mim</h1>
                 <p>
-                Meu nome é Gustavo Ribeiro da Rosa, sou estudante de programação e gosto de estudar 
-                principalmente tecnologias para desenvolvimento Backend e Banco de Dados e desejo me especializar nestas áreas.
-                Atualmente estou cursando o curso superior de Desenvolvimento de Software Multiplataforma.<br/> <br/>
+                    Meu nome é Gustavo Ribeiro da Rosa, sou estudante de programação e gosto de estudar
+                    principalmente tecnologias para desenvolvimento Backend e Banco de Dados e desejo me especializar
+                    nestas áreas.
+                    Atualmente estou cursando o curso superior de Desenvolvimento de Software
+                    Multiplataforma.<br /><br />
 
-                Aqui você poderá conhecer os destaques da minha carreira como desenvolvedor!
+                    Aqui você poderá conhecer os destaques da minha carreira como desenvolvedor!
                 </p>
-                
             </article>
         </section>
-    
-        <section class="tech">
+
+        <section class="tech" id="tecnologias">
             <article>
                 <h3>Linguagens</h3>
                 <ul>
@@ -85,7 +93,7 @@
             </article>
         </section>
 
-        <section class="education">
+        <section class="education" id="formacao">
             <article>
                 <h1>Formação</h1>
                 <p>2018-2021: Análise e Desenvolvimento de Sistemas, Fatec São José dos Campos (Não Concluído)</p>
@@ -93,11 +101,9 @@
             </article>
         </section>
 
-        <section class="work">
-            <!-- <div class="work-type"> -->
-                <h1>Experiência Profissional</h1>
-            <!-- </div> -->
-            <article class="work-dev">                
+        <section class="work" id="experiencia">
+            <h1>Experiência Profissional</h1>
+            <article class="work-dev">
                 <h3>Desenvolvimento de software</h3>
                 <p>Jan-Ago de 2022: Estagiário de Desenvolvimento Backend Ruby on Rails em nave.rs.</p>
             </article>
@@ -109,11 +115,12 @@
         </section>
     </main>
 
-
     <footer>
         <div class="contato bg-dark">
-            <a href="https://github.com/gustasvos"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/></a>
-            <a href="https://www.linkedin.com/in/gustavo-rosa-46a251180/"><img src="./static/images/linkedin_logo.png" alt="linkedin-link"></a>
+            <a href="https://github.com/gustasvos"><img width="30" height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github" /></a>
+            <a href="https://www.linkedin.com/in/gustavo-rosa-46a251180/"><img src="./static/images/linkedin_logo.png"
+                    alt="linkedin-link"></a>
         </div>
     </footer>
 </body>

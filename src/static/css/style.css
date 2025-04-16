@@ -2,13 +2,34 @@ body {
     background-color: slateblue;
 }
 
+/* NAVBAR */
+
+/* Center the navbar items horizontally */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centers the nav items */
+    width: 100%;
+}
+
+/* Increase the font size of navbar links */
+.navbar-nav .nav-link {
+    font-size: 2rem; /* Adjust as needed */
+}
+
+
+/* Optional: Add some padding to the navbar items */
+.navbar-nav .nav-item {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
 /* INTRODUÇÃO */
 
 .intro {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    /* height: 100vh; */
+    height: 100vh;
     border: solid greenyellow;
 }
 
