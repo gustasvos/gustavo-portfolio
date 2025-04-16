@@ -30,7 +30,7 @@ body {
     grid-template-columns: 1fr 3fr;
     align-items: center;
     height: 100vh;
-    /* border: solid greenyellow; */
+    border: solid greenyellow;
 }
 
 .photo {
@@ -181,14 +181,30 @@ body {
     background-color: rgb(151, 200, 246);
 }
 
-.main2 {
-    display: grid;
-    grid-template-columns: auto;
-    width: auto;
-    padding: 40px;
-    gap: 65px;
-    border: solid #fa8714;
-    background-color: #4ee8dd;
+
+.main .projects-title {
+    text-align: center;
+    /* background-color: rgb(14, 39, 63); */
+    /* color: rgb(14, 39, 63); */
+    grid-column: span 3;
+}
+
+.main .project-1 {
+    width: 58%;
+    padding: 50px;
+    padding-top: 1vh;
+    border: solid rgb(14, 39, 63);
+    background-color: rgb(151, 200, 246);
+    grid-column: span 3;
+}
+
+.main .project-2 {
+    width: 58%;
+    padding: 50px;
+    padding-top: 1vh;
+    border: solid rgb(14, 39, 63);
+    background-color: rgb(151, 200, 246);
+    grid-column: span 3;
 }
 
 footer .contato {
