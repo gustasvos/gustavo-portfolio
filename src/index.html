@@ -55,35 +55,36 @@
         <!-- foto e sobre mim -->
         <section class="about" id="aboutme">
             <aside>
-                <img src="./static/images/20240919_115257.jpg" alt="profile-photo">
+                <img class="rounded" src="static/assets/20240919_115257.jpg" alt="profile-photo">
             </aside>
             <article>
-                <p class="fs-2">
+                <p class="fs-5">
                     Meu nome é Gustavo Ribeiro da Rosa, sou estudante de programação e gosto de estudar
                     principalmente tecnologias para desenvolvimento Backend e Banco de Dados e desejo me especializar
                     nestas áreas.
                     Atualmente estou cursando o curso superior de Desenvolvimento de Software
                     Multiplataforma.<br /><br />
- 
+                    
                     Aqui você poderá conhecer os destaques da minha carreira como desenvolvedor!
                 </p>
             </article>
         </section>
  
         <section class="skills" id="skills">
-            <h1 class="title">Habilidades & Conhecimentos</h1>
+            <h1 class="title">Linguagens</h1>
             
             <article class="languages">
                 <img src="https://img.icons8.com/fluency/144/ruby-programming-language.png" alt="ruby">
                 <img src="https://img.icons8.com/color/144/javascript--v1.png" alt="javascript">
                 <img src="https://img.icons8.com/fluency/144/typescript--v1.png" alt="typescript">
                 <img src="https://img.icons8.com/color/144/python--v1.png" alt="python">
-
             </article>
-            <p>sample text sample text sample text sample text sample text sample text <br>
+            <!-- <p>sample text sample text sample text sample text sample text sample text <br>
             sample text sample text sample text sample text sample text sample text <br>
             sample text sample text sample text sample text sample text sample text <br>
-            </p>
+            </p> -->
+
+            <h1 class="title">Frameworks & Tecnologias</h1>
 
             <article class="tech">
                 <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/144/external-rails-a-server-side-web-application-framework-written-in-ruby-logo-shadow-tal-revivo.png" alt="rails">
@@ -99,8 +100,8 @@
         <section class="experience" id="experience">
             
             <article class="work">
-                <h1 class="text-center">Experiência Profissional</h1>
-                <h3>Desenvolvimento de software</h3>
+                <h1 class="text-center">Experiência Profissional (Desenvolvimento de Software)</h1>
+                <!-- <h3>Desenvolvimento de software</h3> -->
                 <p>Jan-Ago de 2022: Estagiário de Desenvolvimento Backend Ruby on Rails em nave.rs.</p>
 
                 <h3>Outras áreas</h3>
@@ -138,11 +139,15 @@
                     Neste projeto atuei no desenvolvimento dos gráficos de produto exportado por valor FOB (Free On Board),
                     quantidade de exportações por ano de cada município e peso total exportado por município em Kg.
                 </p>
+                <p class="text-break"><strong>Tecnologias utilizadas por mim: </strong>Python, HTML, CSS, Flask e Pandas.</p>
                 <a href="https://github.com/arthur-oliver/API-Crows" target="_blank"><img
                         src="https://img.icons8.com/arcade/64/github.png" alt="repository" width="64" height="64"></a>
             </article>
 
-            <div></div>
+            <!-- <div><img src="static/assets/site-graficos.gif" alt=""></div> -->
+             <div><video controls>
+                <source src="static/assets/site-graficos.mp4" type="video/mp4">
+             </video></div>
  
             <article class="project">
                 <h1>WeatherAPI</h1>
@@ -155,6 +160,7 @@
                     tem como destaque a visualização de um calendário com imagens da previsão do tempo para a cidade
                     escolhida.
                 </p>
+                <p class="text-break"><strong>Tecnologias utilizadas: </strong>Ruby on Rails, HTML e Bootstrap.</p>
                 <a href="https://github.com/gustasvos/weather-api" target="_blank"><img
                         src="https://img.icons8.com/arcade/64/github.png" alt="repository" width="64" height="64"></a>
             </article>
@@ -173,6 +179,7 @@
                     Esta aplicação foi a primeira vez em que, além da API também desenvolvi uma interface coesa para
                     realização das requisições CRUD. Além do framework foi utilizado bootstrap para as <i>views</i>.
                 </p>
+                <p class="text-break"><strong>Tecnologias utilizadas: </strong>Ruby on Rails, HTML e Bootstrap.</p>
                 <a href="https://github.com/gustasvos/members-only" target="_blank"><img
                         src="https://img.icons8.com/arcade/64/github.png" alt="repository" width="64" height="64"></a>
             </article>
@@ -183,9 +190,11 @@
  
     </main>
    
-    <footer>
-        <div class="contato bg-dark">
-        </div>
+    <footer class="bg-dark">
+      <nav class="footer">
+        <a href="https://www.linkedin.com/in/gustavo-rosa-46a251180/" target="_blank">Linkedin</a>
+        <a href="https://github.com/gustasvos" target="_blank">Github</a>
+      </nav>
     </footer>
 </body>
  
