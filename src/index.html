@@ -17,7 +17,7 @@
  
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" tabindex="0">
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,13 +58,16 @@
                 <img class="rounded" src="static/assets/20240919_115257.jpg" alt="profile-photo">
             </aside>
             <article>
-                <p class="fs-5">
-                    Meu nome é Gustavo Ribeiro da Rosa, sou estudante de programação e gosto de estudar
+                <p class="fs-5 text-center">
+                    Meu nome é Gustavo Ribeiro da Rosa, sou estudante de programação, gosto de estudar
                     principalmente tecnologias para desenvolvimento Backend e Banco de Dados e desejo me especializar
                     nestas áreas.
                     Atualmente estou cursando o curso superior de Desenvolvimento de Software
                     Multiplataforma.<br /><br />
                     
+                    Além da área de tecnologia, meus maiores gostos pessoais são videogames músicas. Gosto muito de descobrir
+                    novos álbuns e procurar a história por trás da produção das músicas. <br/><br/>
+
                     Aqui você poderá conhecer os destaques da minha carreira como desenvolvedor!
                 </p>
             </article>
@@ -99,23 +102,28 @@
 
         <section class="experience" id="experience">
             
-            <article class="work">
-                <h1 class="text-center">Experiência Profissional (Desenvolvimento de Software)</h1>
-                <!-- <h3>Desenvolvimento de software</h3> -->
-                <p>Jan-Ago de 2022: Estagiário de Desenvolvimento Backend Ruby on Rails em nave.rs.</p>
-
-                <h3>Outras áreas</h3>
-                <p>2019: Estágiário de Informática na Prefeitura de São José dos Campos.</p>
-                <p>2024-Presente: Atendente de suporte em Atento S/A.</p>
+            <article>
+                <h1 class="title">Experiência Profissional</h1>
+                <div class="work">
+                    
+                    <h3>Desenvolvimento de software</h3>
+                    <p>Jan-Ago de 2022: Estagiário de Desenvolvimento Backend Ruby on Rails em nave.rs.</p>
+    
+                    <h3>Outras áreas</h3>
+                    <p>2019: Estágiário de Informática na Prefeitura de São José dos Campos.</p>
+                    <p>2024-Presente: Atendente de suporte em Atento S/A.</p>
+                </div>
             </article>
 
-            <article class="education">
-                <h1 class="text-center">Formação</h1>
-                <p class="text-break mb-0">Desenvolvimento de Software Multiplataforma (2025-2028)</p>
-                <p class="text-secondary">Fatec São José dos Campos (Cursando)</p>
-
-                <p class="text-break mb-0">Análise e Desenvolvimento de Sistemas (2018-2021)</p>
-                <p class="text-secondary">Fatec São José dos Campos (Não Concluído)</p>
+            <article>
+                <h1 class="title">Formação</h1>
+                <div class="education">
+                    <p class="text-break mb-0">Desenvolvimento de Software Multiplataforma (2025-2028)</p>
+                    <p class="text-secondary">Fatec São José dos Campos (Cursando)</p>
+    
+                    <p class="text-break mb-0">Análise e Desenvolvimento de Sistemas (2018-2021)</p>
+                    <p class="text-secondary">Fatec São José dos Campos (Não Concluído)</p>
+                </div>
             </article>
 
             <p class="text-center">Curriculo: <button class="btn btn-primary">Acesse</button></p>
@@ -153,12 +161,8 @@
                 <h1>WeatherAPI</h1>
  
                 <p class="text-break">Com propósito de estudar o manuseio de APIs no framework Ruby on Rails, desenvolvi uma
-                    simples aplicação web que mostra informações do clima do mundo todo com base na API pública disponível
+                    simples aplicação web que mostra informações do clima do mundo todo com base na API meteorologica disponível
                     em <a href="https://www.weatherapi.com/" target="_blank">https://www.weatherapi.com/</a>. <br /> <br />
- 
-                    Este projeto teve mais enfâse nas <i>views</i> da interface web do que no modelo de banco de dados, e
-                    tem como destaque a visualização de um calendário com imagens da previsão do tempo para a cidade
-                    escolhida.
                 </p>
                 <p class="text-break"><strong>Tecnologias utilizadas: </strong>Ruby on Rails, HTML e Bootstrap.</p>
                 <a href="https://github.com/gustasvos/weather-api" target="_blank"><img
