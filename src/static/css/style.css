@@ -210,3 +210,98 @@ footer {
 .social-icons a:active {
     color: #8B0000;
 }
+
+
+@media (max-width: 767px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #ffffff;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #ffffff;
+    }
+
+    .about aside img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about article p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .skills .languages img,
+    .skills .tech img {
+        width: 50px;
+        margin: 5px;
+    }
+
+    .skills .title {
+        font-size: 1.5rem;
+    }
+
+    .experience article,
+    .projects article {
+        padding: 15px;
+    }
+
+    .projects h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn-custom {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .projects video {
+        width: 100%;
+    }
+
+    .social-icons {
+        flex-direction: row;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .about article p,
+    .skills .languages img,
+    .skills .tech img {
+        font-size: 0.9rem;
+    }
+
+    .about article p {
+        padding: 8px;
+    }
+
+    .about aside img {
+        width: 70%;
+    }
+
+    .skills .languages img,
+    .skills .tech img {
+        width: 40px;
+    }
+
+    .btn-custom {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
