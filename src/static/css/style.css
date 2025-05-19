@@ -1,8 +1,19 @@
 body {
-    /* background-color: rgb(72, 133, 193); */
-    background: linear-gradient(180deg, #8b0000, #3e0000);  
+    background: linear-gradient(180deg, #0D0404, #800000, #0D0404);
+
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal; /* Or the desired weight */
+    font-style: normal;
 }
 
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
 
 /* NAVBAR */
 
@@ -68,20 +79,17 @@ main {
     display: grid;
     grid-template-columns: auto;
     padding: 2.5rem;
-    /* border: solid red; */
 
     /* imagens das linguagens e frameworks/tecnologias */
-    article {
+    .languages, .tech {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
         grid-column: span 2;
         padding: 25px;
         border-radius: 0.375rem; /* equivalente a rounded-2 */
-        background: #6b2d2d;
-        /* background: linear-gradient(#03045e,#8586d1); */
-        /* border: solid rgb(14, 39, 63);
-        background-color: rgb(151, 200, 246); */
+        background: #3e1313;
+        /* background: #6b2d2d; */
     }
 }
 
@@ -91,30 +99,27 @@ main {
     padding: 2.5rem;
     /* border: solid black; */
 
-        .work {
+    .work, .education {
         width: auto;
+        height: 70%;
         gap: 1vh;
         padding: 50px;
-        padding-top: 1vh;
+        padding-top: 5vh;
         margin-bottom: 5%;
         margin-right: 3%;
         border-radius: 0.375rem; /* equivalente a rounded-2 */
-        border: solid rgb(14, 39, 63);
-        background-color: rgb(151, 200, 246);
+        background: #3e1313;
     }
 
-        .education {
-        padding: 50px;
-        padding-top: 1vh;
-        margin-bottom: 5%;
-        margin-right: 3%;
-        border-radius: 0.375rem; /* equivalente a rounded-2 */
-        border: solid rgb(14, 39, 63);
-        background-color: rgb(151, 200, 246);
+    h3, p {
+        /* color: #e0e0e0; */
+        color: whitesmoke;
     }
 
-    p {
-        grid-column: span 2;
+    .btn-custom {
+        margin: auto auto;
+        display: block;
+        text-align: center;
     }
 }
  
@@ -132,18 +137,22 @@ main {
 }
  
 .main .project {
-    border: solid rgb(14, 39, 63);
     border-radius: 0.375rem; /* equivalente a rounded-2 */
-    background-color: rgb(151, 200, 246);
     margin-bottom: 5%;
     margin-right: 3%;
     padding: 5%;
     padding-top: 1vh;
-    
+    /* background-color: #ef5959; */
+    background: #3e1313;
+
     /* deixa o link do tamanho da imagem */
     a {
         width: 64px;
         height: 64px;
+    }
+
+    h1, p {
+        color: whitesmoke
     }
 }
 
@@ -163,7 +172,7 @@ main {
 .title {
     grid-column: span 2;
     text-align: center;
-    color: #ffffff;
+    color: gold;
 }
 
 footer > nav {
