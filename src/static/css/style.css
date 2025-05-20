@@ -215,10 +215,6 @@ footer {
         flex-direction: column;
     }
 
-    .navbar-toggler {
-        border: 1px solid #ffffff;
-    }
-
     .about aside img {
         width: 80%;
         margin: 0 auto;
