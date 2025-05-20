@@ -219,10 +219,6 @@ footer {
         border: 1px solid #ffffff;
     }
 
-    .navbar-toggler-icon {
-        background-color: #ffffff;
-    }
-
     .about aside img {
         width: 80%;
         margin: 0 auto;
@@ -278,15 +274,17 @@ footer {
     .about article p,
     .skills .languages img,
     .skills .tech img {
-        font-size: 0.9rem;
+        font-size: 0.9rem !important;
     }
 
     .about article p {
-        padding: 8px;
+        padding-top: 10vh;
     }
 
     .about aside img {
         width: 70%;
+        height: 70%;
+        padding-top: 10vh;
     }
 
     .skills .languages img,
@@ -297,5 +295,10 @@ footer {
     .btn-custom {
         padding: 10px;
         font-size: 1rem;
+    }
+
+    .projects {
+        display: flex !important;
+        flex-flow: column nowrap;
     }
 }
