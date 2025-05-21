@@ -148,11 +148,14 @@ main {
     }
 
     h1 {
-        color: white;
+        color: gold;
     }
 
     p {
         color: whitesmoke
+    }
+    strong {
+        color: gold;
     }
 }
 
@@ -267,13 +270,8 @@ footer {
         font-size: 1.2rem;
     }
 
-    .about article p,
-    .skills .languages img,
-    .skills .tech img {
-        font-size: 0.9rem !important;
-    }
-
     .about article p {
+        font-size: 0.9rem !important;
         padding-top: 10vh;
     }
 
@@ -289,12 +287,20 @@ footer {
     }
 
     .btn-custom {
-        padding: 10px;
-        font-size: 1rem;
+        padding: 3%;
+        font-size: 1rem !important;
+    }
+
+    .experience {
+        width: 85vw;
     }
 
     .projects {
         display: flex !important;
         flex-flow: column nowrap;
+
+        p {
+            font-size: 0.9rem !important;
+        }
     }
 }
